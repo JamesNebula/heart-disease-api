@@ -1,0 +1,18 @@
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{
+  "age": 55,
+  "sex": 1,
+  "cp": 2,
+  "trestbps": 140,
+  "chol": 250,
+  "fbs": 1,
+  "restecg": 2,
+  "thalach": 150,
+  "exang": 1,
+  "oldpeak": 2.0,
+  "slope": 2,
+  "ca": 1,
+  "thal": 2
+}
